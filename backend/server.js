@@ -14,7 +14,11 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors()); // Enable CORS for frontend
+const corsOptions = {
+  origin: process.env.CLIENT_URL || '*',
+  credentials: true,
+};
+app.use(cors(corsOptions)); // Enable CORS for frontend
 app.use(express.json()); // Parse JSON bodies
 app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies
 
