@@ -2,6 +2,12 @@
 
 A full-stack web application built with React.js frontend and Node.js/Express backend, featuring JWT authentication and a comprehensive notes management system.
 
+## 🌐 Live Demo
+
+- **Frontend (Vercel):** [https://frontend-developer-task-six.vercel.app](https://frontend-developer-task-six.vercel.app)
+- **Backend API (Render):** [https://frontend-developer-task-4nqz.onrender.com](https://frontend-developer-task-4nqz.onrender.com)
+- **GitHub Repository:** [https://github.com/Akshit501/Frontend-Developer-Task](https://github.com/Akshit501/Frontend-Developer-Task)
+
 ## 🚀 Features
 
 ### Frontend
